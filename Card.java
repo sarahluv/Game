@@ -14,6 +14,13 @@ Purpose: To display & show points of cards based on suit and face
 
 */
 
+/*------------------------------------------------------------------------------
+    FEEDBACK FROM INSTRUCTOR:
+    Sarah, this is very good!  Make sure the getSuitName() for a Joker does not 
+    return "Joker".  Jokers do not have a suit.  Use an empty string "".  
+    Otherwise, VERY nicely done.
+-------------------------------------------------------------------------------*/
+
 public class Card
 {
     private int suit;
