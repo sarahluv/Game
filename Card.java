@@ -93,7 +93,7 @@ public class Card
         case 5:
         return "Stars";
         default:
-        return "Joker";
+        return ""; //previously "Joker"
         }
     }
     public String getFaceName()
