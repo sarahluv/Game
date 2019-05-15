@@ -126,7 +126,7 @@ public class Card
         case 13:
         return "King";
         default:
-        return "Joker";
+        return ""; //previously "Joker"
         }
     }
     public void setPoints(int point)
